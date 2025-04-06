@@ -1,0 +1,125 @@
+{
+    "home_team": "New Orleans Pelicans",
+    "away_team": "Boston Celtics",
+    "prob": 0.22011144883485306,
+    "features": {
+        "ELO_HOME": 1380.9766132245802,
+        "ELO_AWAY": 1661.455874680861,
+        "MOMENTUM_HOME_CLEAN": -1.0,
+        "MOMENTUM_AWAY_CLEAN": 3.0,
+        "AVG_HOME_PTS_3": 97.0,
+        "AVG_AWAY_PTS_3": 113.66666666666667,
+        "AVG_HOME_PTS_7": 106.42857142857143,
+        "AVG_AWAY_PTS_7": 119.42857142857143,
+        "AVG_HOME_FG_PCT_3": 0.442,
+        "AVG_AWAY_FG_PCT_3": 0.4443333333333334,
+        "AVG_HOME_FG_PCT_7": 0.48914285714285716,
+        "AVG_AWAY_FG_PCT_7": 0.47200000000000003,
+        "AVG_HOME_REB_3": 47.333333333333336,
+        "AVG_AWAY_REB_3": 50.333333333333336,
+        "AVG_HOME_REB_7": 44.142857142857146,
+        "AVG_AWAY_REB_7": 47.142857142857146,
+        "AVG_HOME_AST_3": 25.666666666666668,
+        "AVG_AWAY_AST_3": 28.666666666666668,
+        "AVG_HOME_AST_7": 28.0,
+        "AVG_AWAY_AST_7": 29.285714285714285,
+        "AVG_HOME_STL_3": 8.0,
+        "AVG_AWAY_STL_3": 3.0,
+        "AVG_HOME_STL_7": 7.714285714285714,
+        "AVG_AWAY_STL_7": 6.428571428571429,
+        "AVG_HOME_BLK_3": 5.666666666666667,
+        "AVG_AWAY_BLK_3": 4.333333333333333,
+        "AVG_HOME_BLK_7": 5.285714285714286,
+        "AVG_AWAY_BLK_7": 4.857142857142857
+    },
+    "last_5_home": [
+        {
+            "GAME_DATE": "2025-04-02",
+            "Heim/Auswärts": "Auswärts",
+            "Gegner": "LAC",
+            "WL": "L",
+            "PTS": 98,
+            "PLUS_MINUS": -16.0
+        },
+        {
+            "GAME_DATE": "2025-03-30",
+            "Heim/Auswärts": "Heim",
+            "Gegner": "CHA",
+            "WL": "W",
+            "PTS": 98,
+            "PLUS_MINUS": 4.0
+        },
+        {
+            "GAME_DATE": "2025-03-28",
+            "Heim/Auswärts": "Heim",
+            "Gegner": "GSW",
+            "WL": "L",
+            "PTS": 95,
+            "PLUS_MINUS": -16.0
+        },
+        {
+            "GAME_DATE": "2025-03-24",
+            "Heim/Auswärts": "Heim",
+            "Gegner": "PHI",
+            "WL": "W",
+            "PTS": 112,
+            "PLUS_MINUS": 13.0
+        },
+        {
+            "GAME_DATE": "2025-03-23",
+            "Heim/Auswärts": "Auswärts",
+            "Gegner": "DET",
+            "WL": "L",
+            "PTS": 130,
+            "PLUS_MINUS": -6.0
+        }
+    ],
+    "last_5_away": [
+        {
+            "GAME_DATE": "2025-04-02",
+            "Heim/Auswärts": "Heim",
+            "Gegner": "MIA",
+            "WL": "L",
+            "PTS": 103,
+            "PLUS_MINUS": -21.0
+        },
+        {
+            "GAME_DATE": "2025-03-31",
+            "Heim/Auswärts": "Auswärts",
+            "Gegner": "MEM",
+            "WL": "W",
+            "PTS": 117,
+            "PLUS_MINUS": 14.0
+        },
+        {
+            "GAME_DATE": "2025-03-29",
+            "Heim/Auswärts": "Auswärts",
+            "Gegner": "SAS",
+            "WL": "W",
+            "PTS": 121,
+            "PLUS_MINUS": 10.0
+        },
+        {
+            "GAME_DATE": "2025-03-26",
+            "Heim/Auswärts": "Auswärts",
+            "Gegner": "PHX",
+            "WL": "W",
+            "PTS": 132,
+            "PLUS_MINUS": 30.0
+        },
+        {
+            "GAME_DATE": "2025-03-24",
+            "Heim/Auswärts": "Auswärts",
+            "Gegner": "SAC",
+            "WL": "W",
+            "PTS": 113,
+            "PLUS_MINUS": 18.0
+        }
+    ],
+    "top_scorer_home": [],
+    "top_scorer_away": [],
+    "low_minutes_home": [],
+    "low_minutes_away": [],
+    "trends_home": [],
+    "trends_away": []
+}

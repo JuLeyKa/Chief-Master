@@ -1,0 +1,484 @@
+{
+    "home_team": "Charlotte Hornets",
+    "away_team": "Sacramento Kings",
+    "prob": 0.6814618325963282,
+    "features": {
+        "ELO_HOME": 1339.4433136020489,
+        "ELO_AWAY": 1485.243691296746,
+        "MOMENTUM_HOME_CLEAN": -3.0,
+        "MOMENTUM_AWAY_CLEAN": -5.0,
+        "AVG_HOME_PTS_3": 103.0,
+        "AVG_AWAY_PTS_3": 103.66666666666667,
+        "AVG_HOME_PTS_7": 103.0,
+        "AVG_AWAY_PTS_7": 106.71428571428571,
+        "AVG_HOME_FG_PCT_3": 0.472,
+        "AVG_AWAY_FG_PCT_3": 0.436,
+        "AVG_HOME_FG_PCT_7": 0.45371428571428574,
+        "AVG_AWAY_FG_PCT_7": 0.4668571428571428,
+        "AVG_HOME_REB_3": 47.0,
+        "AVG_AWAY_REB_3": 44.666666666666664,
+        "AVG_HOME_REB_7": 43.42857142857143,
+        "AVG_AWAY_REB_7": 43.57142857142857,
+        "AVG_HOME_AST_3": 24.333333333333332,
+        "AVG_AWAY_AST_3": 21.333333333333332,
+        "AVG_HOME_AST_7": 25.857142857142858,
+        "AVG_AWAY_AST_7": 23.428571428571427,
+        "AVG_HOME_STL_3": 7.0,
+        "AVG_AWAY_STL_3": 7.666666666666667,
+        "AVG_HOME_STL_7": 5.857142857142857,
+        "AVG_AWAY_STL_7": 7.428571428571429,
+        "AVG_HOME_BLK_3": 4.333333333333333,
+        "AVG_AWAY_BLK_3": 3.6666666666666665,
+        "AVG_HOME_BLK_7": 4.142857142857143,
+        "AVG_AWAY_BLK_7": 3.4285714285714284
+    },
+    "last_5_home": [
+        {
+            "GAME_DATE": "2025-04-02",
+            "Heim/Auswärts": "Auswärts",
+            "Gegner": "IND",
+            "WL": "L",
+            "PTS": 105,
+            "PLUS_MINUS": -14.0,
+            "FG_PCT": 52.6,
+            "REB": 44,
+            "AST": 20,
+            "STL": 3,
+            "BLK": 2
+        },
+        {
+            "GAME_DATE": "2025-03-31",
+            "Heim/Auswärts": "Heim",
+            "Gegner": "UTA",
+            "WL": "W",
+            "PTS": 110,
+            "PLUS_MINUS": 4.0,
+            "FG_PCT": 53.800000000000004,
+            "REB": 47,
+            "AST": 33,
+            "STL": 3,
+            "BLK": 5
+        },
+        {
+            "GAME_DATE": "2025-03-30",
+            "Heim/Auswärts": "Auswärts",
+            "Gegner": "NOP",
+            "WL": "L",
+            "PTS": 94,
+            "PLUS_MINUS": -4.0,
+            "FG_PCT": 35.199999999999996,
+            "REB": 50,
+            "AST": 20,
+            "STL": 15,
+            "BLK": 6
+        },
+        {
+            "GAME_DATE": "2025-03-28",
+            "Heim/Auswärts": "Auswärts",
+            "Gegner": "TOR",
+            "WL": "L",
+            "PTS": 97,
+            "PLUS_MINUS": -11.0,
+            "FG_PCT": 40.6,
+            "REB": 56,
+            "AST": 29,
+            "STL": 5,
+            "BLK": 5
+        },
+        {
+            "GAME_DATE": "2025-03-25",
+            "Heim/Auswärts": "Heim",
+            "Gegner": "ORL",
+            "WL": "L",
+            "PTS": 104,
+            "PLUS_MINUS": -7.0,
+            "FG_PCT": 42.0,
+            "REB": 38,
+            "AST": 26,
+            "STL": 4,
+            "BLK": 3
+        },
+        {
+            "GAME_DATE": "2025-03-23",
+            "Heim/Auswärts": "Auswärts",
+            "Gegner": "MIA",
+            "WL": "L",
+            "PTS": 105,
+            "PLUS_MINUS": -17.0,
+            "FG_PCT": 47.099999999999994,
+            "REB": 40,
+            "AST": 24,
+            "STL": 5,
+            "BLK": 4
+        },
+        {
+            "GAME_DATE": "2025-03-21",
+            "Heim/Auswärts": "Auswärts",
+            "Gegner": "OKC",
+            "WL": "L",
+            "PTS": 106,
+            "PLUS_MINUS": -35.0,
+            "FG_PCT": 46.300000000000004,
+            "REB": 29,
+            "AST": 29,
+            "STL": 6,
+            "BLK": 4
+        },
+        {
+            "GAME_DATE": "2025-03-20",
+            "Heim/Auswärts": "Heim",
+            "Gegner": "NYK",
+            "WL": "W",
+            "PTS": 115,
+            "PLUS_MINUS": 17.0,
+            "FG_PCT": 48.9,
+            "REB": 52,
+            "AST": 25,
+            "STL": 1,
+            "BLK": 3
+        },
+        {
+            "GAME_DATE": "2025-03-18",
+            "Heim/Auswärts": "Heim",
+            "Gegner": "ATL",
+            "WL": "L",
+            "PTS": 102,
+            "PLUS_MINUS": -32.0,
+            "FG_PCT": 45.2,
+            "REB": 39,
+            "AST": 25,
+            "STL": 7,
+            "BLK": 8
+        },
+        {
+            "GAME_DATE": "2025-03-16",
+            "Heim/Auswärts": "Auswärts",
+            "Gegner": "LAC",
+            "WL": "L",
+            "PTS": 88,
+            "PLUS_MINUS": -35.0,
+            "FG_PCT": 39.4,
+            "REB": 44,
+            "AST": 27,
+            "STL": 5,
+            "BLK": 5
+        }
+    ],
+    "last_5_away": [
+        {
+            "GAME_DATE": "2025-04-02",
+            "Heim/Auswärts": "Auswärts",
+            "Gegner": "WAS",
+            "WL": "L",
+            "PTS": 111,
+            "PLUS_MINUS": -5.0,
+            "FG_PCT": 42.1,
+            "REB": 48,
+            "AST": 25,
+            "STL": 10,
+            "BLK": 3
+        },
+        {
+            "GAME_DATE": "2025-03-31",
+            "Heim/Auswärts": "Auswärts",
+            "Gegner": "IND",
+            "WL": "L",
+            "PTS": 109,
+            "PLUS_MINUS": -2.0,
+            "FG_PCT": 46.7,
+            "REB": 45,
+            "AST": 22,
+            "STL": 7,
+            "BLK": 2
+        },
+        {
+            "GAME_DATE": "2025-03-29",
+            "Heim/Auswärts": "Auswärts",
+            "Gegner": "ORL",
+            "WL": "L",
+            "PTS": 91,
+            "PLUS_MINUS": -30.0,
+            "FG_PCT": 42.0,
+            "REB": 41,
+            "AST": 17,
+            "STL": 6,
+            "BLK": 6
+        },
+        {
+            "GAME_DATE": "2025-03-27",
+            "Heim/Auswärts": "Heim",
+            "Gegner": "POR",
+            "WL": "W",
+            "PTS": 128,
+            "PLUS_MINUS": 21.0,
+            "FG_PCT": 64.9,
+            "REB": 46,
+            "AST": 24,
+            "STL": 8,
+            "BLK": 3
+        },
+        {
+            "GAME_DATE": "2025-03-25",
+            "Heim/Auswärts": "Heim",
+            "Gegner": "OKC",
+            "WL": "L",
+            "PTS": 105,
+            "PLUS_MINUS": -16.0,
+            "FG_PCT": 40.699999999999996,
+            "REB": 36,
+            "AST": 32,
+            "STL": 10,
+            "BLK": 7
+        },
+        {
+            "GAME_DATE": "2025-03-24",
+            "Heim/Auswärts": "Heim",
+            "Gegner": "BOS",
+            "WL": "L",
+            "PTS": 95,
+            "PLUS_MINUS": -18.0,
+            "FG_PCT": 45.300000000000004,
+            "REB": 45,
+            "AST": 23,
+            "STL": 7,
+            "BLK": 1
+        },
+        {
+            "GAME_DATE": "2025-03-22",
+            "Heim/Auswärts": "Heim",
+            "Gegner": "MIL",
+            "WL": "L",
+            "PTS": 108,
+            "PLUS_MINUS": -6.0,
+            "FG_PCT": 45.1,
+            "REB": 44,
+            "AST": 21,
+            "STL": 4,
+            "BLK": 2
+        },
+        {
+            "GAME_DATE": "2025-03-20",
+            "Heim/Auswärts": "Heim",
+            "Gegner": "CHI",
+            "WL": "L",
+            "PTS": 116,
+            "PLUS_MINUS": -12.0,
+            "FG_PCT": 47.699999999999996,
+            "REB": 36,
+            "AST": 27,
+            "STL": 4,
+            "BLK": 5
+        },
+        {
+            "GAME_DATE": "2025-03-19",
+            "Heim/Auswärts": "Heim",
+            "Gegner": "CLE",
+            "WL": "W",
+            "PTS": 123,
+            "PLUS_MINUS": 4.0,
+            "FG_PCT": 50.5,
+            "REB": 41,
+            "AST": 28,
+            "STL": 9,
+            "BLK": 1
+        },
+        {
+            "GAME_DATE": "2025-03-17",
+            "Heim/Auswärts": "Heim",
+            "Gegner": "MEM",
+            "WL": "W",
+            "PTS": 132,
+            "PLUS_MINUS": 10.0,
+            "FG_PCT": 52.300000000000004,
+            "REB": 38,
+            "AST": 35,
+            "STL": 11,
+            "BLK": 7
+        }
+    ],
+    "top_scorer_home": [
+        {
+            "Name": "LaMelo Ball",
+            "Matchup": "CHA vs. ORL",
+            "MIN": 29.0,
+            "PTS": 25,
+            "REB": 1,
+            "AST": 9
+        },
+        {
+            "Name": "Brandon Miller",
+            "Matchup": "CHA @ UTA",
+            "MIN": 33.0,
+            "PTS": 20,
+            "REB": 5,
+            "AST": 3
+        },
+        {
+            "Name": "Miles Bridges",
+            "Matchup": "CHA @ IND",
+            "MIN": 24.0,
+            "PTS": 18,
+            "REB": 4,
+            "AST": 5
+        },
+        {
+            "Name": "Seth Curry",
+            "Matchup": "CHA @ IND",
+            "MIN": 30.0,
+            "PTS": 16,
+            "REB": 4,
+            "AST": 2
+        },
+        {
+            "Name": "Mark Williams",
+            "Matchup": "CHA @ IND",
+            "MIN": 32.0,
+            "PTS": 16,
+            "REB": 12,
+            "AST": 1
+        }
+    ],
+    "top_scorer_away": [
+        {
+            "Name": "DeMar DeRozan",
+            "Matchup": "SAC @ WAS",
+            "MIN": 40.0,
+            "PTS": 29,
+            "REB": 7,
+            "AST": 8
+        },
+        {
+            "Name": "Zach LaVine",
+            "Matchup": "SAC @ WAS",
+            "MIN": 35.0,
+            "PTS": 18,
+            "REB": 2,
+            "AST": 2
+        },
+        {
+            "Name": "Domantas Sabonis",
+            "Matchup": "SAC @ WAS",
+            "MIN": 35.0,
+            "PTS": 18,
+            "REB": 16,
+            "AST": 7
+        },
+        {
+            "Name": "Keegan Murray",
+            "Matchup": "SAC @ WAS",
+            "MIN": 35.0,
+            "PTS": 18,
+            "REB": 5,
+            "AST": 3
+        },
+        {
+            "Name": "Malik Monk",
+            "Matchup": "SAC @ WAS",
+            "MIN": 35.0,
+            "PTS": 13,
+            "REB": 3,
+            "AST": 3
+        }
+    ],
+    "low_minutes_home": [],
+    "low_minutes_away": [
+        {
+            "Name": "Mason Jones",
+            "Matchup": "SAC vs. BOS",
+            "MIN": 3.0,
+            "PTS": 0,
+            "REB": 1,
+            "AST": 1
+        },
+        {
+            "Name": "Devin Carter",
+            "Matchup": "SAC @ ORL",
+            "MIN": 1.0,
+            "PTS": 0,
+            "REB": 0,
+            "AST": 0
+        },
+        {
+            "Name": "Isaiah Crawford",
+            "Matchup": "SAC @ ORL",
+            "MIN": 2.0,
+            "PTS": 0,
+            "REB": 0,
+            "AST": 0
+        }
+    ],
+    "trends_home": [
+        {
+            "Name": "LaMelo Ball",
+            "PTS Ø": 22.7,
+            "REB Ø": 3.0,
+            "AST Ø": 9.3,
+            "Trend": "➖"
+        },
+        {
+            "Name": "Miles Bridges",
+            "PTS Ø": 21.3,
+            "REB Ø": 6.7,
+            "AST Ø": 5.0,
+            "Trend": "➖"
+        },
+        {
+            "Name": "Brandon Miller",
+            "PTS Ø": 17.3,
+            "REB Ø": 4.0,
+            "AST Ø": 3.7,
+            "Trend": "🔼"
+        },
+        {
+            "Name": "Mark Williams",
+            "PTS Ø": 17.3,
+            "REB Ø": 12.3,
+            "AST Ø": 2.3,
+            "Trend": "➖"
+        },
+        {
+            "Name": "Grant Williams",
+            "PTS Ø": 12.0,
+            "REB Ø": 5.7,
+            "AST Ø": 2.3,
+            "Trend": "🔽"
+        }
+    ],
+    "trends_away": [
+        {
+            "Name": "DeMar DeRozan",
+            "PTS Ø": 27.0,
+            "REB Ø": 4.7,
+            "AST Ø": 5.7,
+            "Trend": "➖"
+        },
+        {
+            "Name": "Domantas Sabonis",
+            "PTS Ø": 19.0,
+            "REB Ø": 15.0,
+            "AST Ø": 3.7,
+            "Trend": "➖"
+        },
+        {
+            "Name": "Zach LaVine",
+            "PTS Ø": 16.0,
+            "REB Ø": 3.0,
+            "AST Ø": 2.3,
+            "Trend": "➖"
+        },
+        {
+            "Name": "Keegan Murray",
+            "PTS Ø": 13.0,
+            "REB Ø": 5.0,
+            "AST Ø": 1.0,
+            "Trend": "🔼"
+        },
+        {
+            "Name": "Malik Monk",
+            "PTS Ø": 9.0,
+            "REB Ø": 4.0,
+            "AST Ø": 4.0,
+            "Trend": "➖"
+        }
+    ]
+}

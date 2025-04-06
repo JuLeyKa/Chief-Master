@@ -1,0 +1,313 @@
+{
+    "home_team": "Indiana Pacers",
+    "away_team": "Utah Jazz",
+    "prob": 1.0,
+    "features": {
+        "ELO_HOME": 1606.0784989425867,
+        "ELO_AWAY": 1311.1152622720815,
+        "MOMENTUM_HOME_CLEAN": 3.0,
+        "MOMENTUM_AWAY_CLEAN": -3.0,
+        "AVG_HOME_PTS_3": 113.66666666666667,
+        "AVG_AWAY_PTS_3": 101.33333333333333,
+        "AVG_HOME_PTS_7": 121.28571428571429,
+        "AVG_AWAY_PTS_7": 101.0,
+        "AVG_HOME_FG_PCT_3": 0.47,
+        "AVG_AWAY_FG_PCT_3": 0.39566666666666667,
+        "AVG_HOME_FG_PCT_7": 0.5031428571428572,
+        "AVG_AWAY_FG_PCT_7": 0.4255714285714286,
+        "AVG_HOME_REB_3": 40.333333333333336,
+        "AVG_AWAY_REB_3": 40.666666666666664,
+        "AVG_HOME_REB_7": 42.42857142857143,
+        "AVG_AWAY_REB_7": 39.0,
+        "AVG_HOME_AST_3": 28.0,
+        "AVG_AWAY_AST_3": 23.666666666666668,
+        "AVG_HOME_AST_7": 32.142857142857146,
+        "AVG_AWAY_AST_7": 24.714285714285715,
+        "AVG_HOME_STL_3": 7.333333333333333,
+        "AVG_AWAY_STL_3": 10.0,
+        "AVG_HOME_STL_7": 7.571428571428571,
+        "AVG_AWAY_STL_7": 7.428571428571429,
+        "AVG_HOME_BLK_3": 5.666666666666667,
+        "AVG_AWAY_BLK_3": 2.6666666666666665,
+        "AVG_HOME_BLK_7": 4.857142857142857,
+        "AVG_AWAY_BLK_7": 3.2857142857142856
+    },
+    "last_5_home": [
+        {
+            "GAME_DATE": "2025-04-02",
+            "Heim/Auswärts": "Heim",
+            "Gegner": "CHA",
+            "WL": "W",
+            "PTS": 119,
+            "PLUS_MINUS": 14.0
+        },
+        {
+            "GAME_DATE": "2025-03-31",
+            "Heim/Auswärts": "Heim",
+            "Gegner": "SAC",
+            "WL": "W",
+            "PTS": 111,
+            "PLUS_MINUS": 2.0
+        },
+        {
+            "GAME_DATE": "2025-03-29",
+            "Heim/Auswärts": "Auswärts",
+            "Gegner": "OKC",
+            "WL": "L",
+            "PTS": 111,
+            "PLUS_MINUS": -21.0
+        },
+        {
+            "GAME_DATE": "2025-03-27",
+            "Heim/Auswärts": "Auswärts",
+            "Gegner": "WAS",
+            "WL": "W",
+            "PTS": 162,
+            "PLUS_MINUS": 53.0
+        },
+        {
+            "GAME_DATE": "2025-03-26",
+            "Heim/Auswärts": "Heim",
+            "Gegner": "LAL",
+            "WL": "L",
+            "PTS": 119,
+            "PLUS_MINUS": -1.0
+        }
+    ],
+    "last_5_away": [
+        {
+            "GAME_DATE": "2025-04-02",
+            "Heim/Auswärts": "Auswärts",
+            "Gegner": "HOU",
+            "WL": "L",
+            "PTS": 105,
+            "PLUS_MINUS": -38.0
+        },
+        {
+            "GAME_DATE": "2025-03-31",
+            "Heim/Auswärts": "Auswärts",
+            "Gegner": "CHA",
+            "WL": "L",
+            "PTS": 106,
+            "PLUS_MINUS": -4.0
+        },
+        {
+            "GAME_DATE": "2025-03-28",
+            "Heim/Auswärts": "Auswärts",
+            "Gegner": "DEN",
+            "WL": "L",
+            "PTS": 93,
+            "PLUS_MINUS": -36.0
+        },
+        {
+            "GAME_DATE": "2025-03-27",
+            "Heim/Auswärts": "Heim",
+            "Gegner": "HOU",
+            "WL": "L",
+            "PTS": 110,
+            "PLUS_MINUS": -11.0
+        },
+        {
+            "GAME_DATE": "2025-03-25",
+            "Heim/Auswärts": "Heim",
+            "Gegner": "MEM",
+            "WL": "L",
+            "PTS": 103,
+            "PLUS_MINUS": -37.0
+        }
+    ],
+    "top_scorer_home": [
+        {
+            "Name": "Tyrese Haliburton",
+            "Matchup": "IND vs. CHA",
+            "MIN": 34.0,
+            "PTS": 22,
+            "REB": 1,
+            "AST": 10
+        },
+        {
+            "Name": "Aaron Nesmith",
+            "Matchup": "IND vs. CHA",
+            "MIN": 26.0,
+            "PTS": 16,
+            "REB": 3,
+            "AST": 1
+        },
+        {
+            "Name": "Myles Turner",
+            "Matchup": "IND vs. CHA",
+            "MIN": 29.0,
+            "PTS": 15,
+            "REB": 9,
+            "AST": 2
+        },
+        {
+            "Name": "Pascal Siakam",
+            "Matchup": "IND vs. CHA",
+            "MIN": 28.0,
+            "PTS": 15,
+            "REB": 6,
+            "AST": 1
+        },
+        {
+            "Name": "Thomas Bryant",
+            "Matchup": "IND vs. CHA",
+            "MIN": 19.0,
+            "PTS": 13,
+            "REB": 3,
+            "AST": 1
+        }
+    ],
+    "top_scorer_away": [
+        {
+            "Name": "John Collins",
+            "Matchup": "UTA @ MEM",
+            "MIN": 28.0,
+            "PTS": 22,
+            "REB": 7,
+            "AST": 0
+        },
+        {
+            "Name": "Isaiah Collier",
+            "Matchup": "UTA @ HOU",
+            "MIN": 32.0,
+            "PTS": 22,
+            "REB": 5,
+            "AST": 10
+        },
+        {
+            "Name": "Collin Sexton",
+            "Matchup": "UTA @ HOU",
+            "MIN": 24.0,
+            "PTS": 18,
+            "REB": 0,
+            "AST": 4
+        },
+        {
+            "Name": "Lauri Markkanen",
+            "Matchup": "UTA vs. CHI",
+            "MIN": 24.0,
+            "PTS": 16,
+            "REB": 2,
+            "AST": 1
+        },
+        {
+            "Name": "Keyonte George",
+            "Matchup": "UTA @ HOU",
+            "MIN": 27.0,
+            "PTS": 14,
+            "REB": 1,
+            "AST": 0
+        }
+    ],
+    "low_minutes_home": [
+        {
+            "Name": "Enrique Freeman",
+            "Matchup": "IND @ MIN",
+            "MIN": 0.0,
+            "PTS": 2,
+            "REB": 0,
+            "AST": 0
+        },
+        {
+            "Name": "Johnny Furphy",
+            "Matchup": "IND vs. CHA",
+            "MIN": 1.0,
+            "PTS": 0,
+            "REB": 0,
+            "AST": 0
+        },
+        {
+            "Name": "James Johnson",
+            "Matchup": "IND @ CHI",
+            "MIN": 4.0,
+            "PTS": 0,
+            "REB": 1,
+            "AST": 0
+        }
+    ],
+    "low_minutes_away": [
+        {
+            "Name": "Elijah Harkless",
+            "Matchup": "UTA @ LAL",
+            "MIN": 3.0,
+            "PTS": 0,
+            "REB": 0,
+            "AST": 0
+        }
+    ],
+    "trends_home": [
+        {
+            "Name": "Tyrese Haliburton",
+            "PTS Ø": 19.3,
+            "REB Ø": 2.3,
+            "AST Ø": 8.0,
+            "Trend": "➖"
+        },
+        {
+            "Name": "Aaron Nesmith",
+            "PTS Ø": 15.7,
+            "REB Ø": 4.3,
+            "AST Ø": 0.3,
+            "Trend": "➖"
+        },
+        {
+            "Name": "Bennedict Mathurin",
+            "PTS Ø": 14.7,
+            "REB Ø": 4.3,
+            "AST Ø": 1.7,
+            "Trend": "➖"
+        },
+        {
+            "Name": "Myles Turner",
+            "PTS Ø": 14.3,
+            "REB Ø": 6.3,
+            "AST Ø": 1.7,
+            "Trend": "➖"
+        },
+        {
+            "Name": "Obi Toppin",
+            "PTS Ø": 13.0,
+            "REB Ø": 4.7,
+            "AST Ø": 2.0,
+            "Trend": "➖"
+        }
+    ],
+    "trends_away": [
+        {
+            "Name": "John Collins",
+            "PTS Ø": 26.3,
+            "REB Ø": 9.7,
+            "AST Ø": 1.0,
+            "Trend": "🔽"
+        },
+        {
+            "Name": "Collin Sexton",
+            "PTS Ø": 19.7,
+            "REB Ø": 0.7,
+            "AST Ø": 3.7,
+            "Trend": "🔽"
+        },
+        {
+            "Name": "Keyonte George",
+            "PTS Ø": 17.3,
+            "REB Ø": 3.0,
+            "AST Ø": 2.7,
+            "Trend": "➖"
+        },
+        {
+            "Name": "Lauri Markkanen",
+            "PTS Ø": 16.0,
+            "REB Ø": 2.7,
+            "AST Ø": 1.0,
+            "Trend": "➖"
+        },
+        {
+            "Name": "Isaiah Collier",
+            "PTS Ø": 14.0,
+            "REB Ø": 3.3,
+            "AST Ø": 8.0,
+            "Trend": "🔼"
+        }
+    ]
+}

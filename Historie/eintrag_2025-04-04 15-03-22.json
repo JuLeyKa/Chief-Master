@@ -1,0 +1,288 @@
+{
+    "home_team": "Boston Celtics",
+    "away_team": "Phoenix Suns",
+    "prob": 0.7840459091158916,
+    "features": {
+        "ELO_HOME": 1661.455874680861,
+        "ELO_AWAY": 1488.6762913409073,
+        "MOMENTUM_HOME_CLEAN": 3.0,
+        "MOMENTUM_AWAY_CLEAN": 1.0,
+        "AVG_HOME_PTS_3": 113.66666666666667,
+        "AVG_AWAY_PTS_3": 113.66666666666667,
+        "AVG_HOME_PTS_7": 119.42857142857143,
+        "AVG_AWAY_PTS_7": 114.42857142857143,
+        "AVG_HOME_FG_PCT_3": 0.4443333333333334,
+        "AVG_AWAY_FG_PCT_3": 0.49333333333333335,
+        "AVG_HOME_FG_PCT_7": 0.47200000000000003,
+        "AVG_AWAY_FG_PCT_7": 0.4831428571428572,
+        "AVG_HOME_REB_3": 50.333333333333336,
+        "AVG_AWAY_REB_3": 35.333333333333336,
+        "AVG_HOME_REB_7": 47.142857142857146,
+        "AVG_AWAY_REB_7": 41.142857142857146,
+        "AVG_HOME_AST_3": 28.666666666666668,
+        "AVG_AWAY_AST_3": 26.333333333333332,
+        "AVG_HOME_AST_7": 29.285714285714285,
+        "AVG_AWAY_AST_7": 27.571428571428573,
+        "AVG_HOME_STL_3": 3.0,
+        "AVG_AWAY_STL_3": 6.666666666666667,
+        "AVG_HOME_STL_7": 6.428571428571429,
+        "AVG_AWAY_STL_7": 6.285714285714286,
+        "AVG_HOME_BLK_3": 4.333333333333333,
+        "AVG_AWAY_BLK_3": 3.0,
+        "AVG_HOME_BLK_7": 4.857142857142857,
+        "AVG_AWAY_BLK_7": 3.5714285714285716
+    },
+    "last_5_home": [
+        {
+            "GAME_DATE": "2025-04-02",
+            "Heim/Auswärts": "Heim",
+            "Gegner": "MIA",
+            "WL": "L",
+            "PTS": 103,
+            "PLUS_MINUS": -21.0
+        },
+        {
+            "GAME_DATE": "2025-03-31",
+            "Heim/Auswärts": "Auswärts",
+            "Gegner": "MEM",
+            "WL": "W",
+            "PTS": 117,
+            "PLUS_MINUS": 14.0
+        },
+        {
+            "GAME_DATE": "2025-03-29",
+            "Heim/Auswärts": "Auswärts",
+            "Gegner": "SAS",
+            "WL": "W",
+            "PTS": 121,
+            "PLUS_MINUS": 10.0
+        },
+        {
+            "GAME_DATE": "2025-03-26",
+            "Heim/Auswärts": "Auswärts",
+            "Gegner": "PHX",
+            "WL": "W",
+            "PTS": 132,
+            "PLUS_MINUS": 30.0
+        },
+        {
+            "GAME_DATE": "2025-03-24",
+            "Heim/Auswärts": "Auswärts",
+            "Gegner": "SAC",
+            "WL": "W",
+            "PTS": 113,
+            "PLUS_MINUS": 18.0
+        }
+    ],
+    "last_5_away": [
+        {
+            "GAME_DATE": "2025-04-01",
+            "Heim/Auswärts": "Auswärts",
+            "Gegner": "MIL",
+            "WL": "L",
+            "PTS": 123,
+            "PLUS_MINUS": -10.0
+        },
+        {
+            "GAME_DATE": "2025-03-30",
+            "Heim/Auswärts": "Heim",
+            "Gegner": "HOU",
+            "WL": "L",
+            "PTS": 109,
+            "PLUS_MINUS": -39.0
+        },
+        {
+            "GAME_DATE": "2025-03-28",
+            "Heim/Auswärts": "Auswärts",
+            "Gegner": "MIN",
+            "WL": "L",
+            "PTS": 109,
+            "PLUS_MINUS": -15.0
+        },
+        {
+            "GAME_DATE": "2025-03-26",
+            "Heim/Auswärts": "Heim",
+            "Gegner": "BOS",
+            "WL": "L",
+            "PTS": 102,
+            "PLUS_MINUS": -30.0
+        },
+        {
+            "GAME_DATE": "2025-03-24",
+            "Heim/Auswärts": "Heim",
+            "Gegner": "MIL",
+            "WL": "W",
+            "PTS": 108,
+            "PLUS_MINUS": 2.0
+        }
+    ],
+    "top_scorer_home": [
+        {
+            "Name": "Al Horford",
+            "Matchup": "BOS @ MEM",
+            "MIN": 37.0,
+            "PTS": 26,
+            "REB": 8,
+            "AST": 2
+        },
+        {
+            "Name": "Jaylen Brown",
+            "Matchup": "BOS vs. MIA",
+            "MIN": 29.0,
+            "PTS": 24,
+            "REB": 9,
+            "AST": 4
+        },
+        {
+            "Name": "Kristaps Porziņģis",
+            "Matchup": "BOS @ MEM",
+            "MIN": 34.0,
+            "PTS": 19,
+            "REB": 5,
+            "AST": 5
+        },
+        {
+            "Name": "Jrue Holiday",
+            "Matchup": "BOS @ MEM",
+            "MIN": 31.0,
+            "PTS": 18,
+            "REB": 7,
+            "AST": 7
+        },
+        {
+            "Name": "Jayson Tatum",
+            "Matchup": "BOS vs. MIA",
+            "MIN": 32.0,
+            "PTS": 16,
+            "REB": 3,
+            "AST": 7
+        }
+    ],
+    "top_scorer_away": [
+        {
+            "Name": "Devin Booker",
+            "Matchup": "PHX @ MIL",
+            "MIN": 43.0,
+            "PTS": 39,
+            "REB": 3,
+            "AST": 11
+        },
+        {
+            "Name": "Grayson Allen",
+            "Matchup": "PHX @ MIL",
+            "MIN": 34.0,
+            "PTS": 23,
+            "REB": 4,
+            "AST": 3
+        },
+        {
+            "Name": "Collin Gillespie",
+            "Matchup": "PHX @ MIL",
+            "MIN": 36.0,
+            "PTS": 18,
+            "REB": 2,
+            "AST": 4
+        },
+        {
+            "Name": "Tyus Jones",
+            "Matchup": "PHX @ MIL",
+            "MIN": 27.0,
+            "PTS": 16,
+            "REB": 2,
+            "AST": 2
+        },
+        {
+            "Name": "Nick Richards",
+            "Matchup": "PHX @ MIL",
+            "MIN": 30.0,
+            "PTS": 13,
+            "REB": 11,
+            "AST": 1
+        }
+    ],
+    "low_minutes_home": [
+        {
+            "Name": "Miles Norris",
+            "Matchup": "BOS vs. PHI",
+            "MIN": 4.0,
+            "PTS": 0,
+            "REB": 2,
+            "AST": 0
+        }
+    ],
+    "low_minutes_away": [],
+    "trends_home": [
+        {
+            "Name": "Jayson Tatum",
+            "PTS Ø": 23.3,
+            "REB Ø": 9.0,
+            "AST Ø": 5.7,
+            "Trend": "🔽"
+        },
+        {
+            "Name": "Jaylen Brown",
+            "PTS Ø": 20.7,
+            "REB Ø": 4.7,
+            "AST Ø": 4.3,
+            "Trend": "➖"
+        },
+        {
+            "Name": "Kristaps Porziņģis",
+            "PTS Ø": 20.0,
+            "REB Ø": 7.0,
+            "AST Ø": 2.7,
+            "Trend": "➖"
+        },
+        {
+            "Name": "Al Horford",
+            "PTS Ø": 18.7,
+            "REB Ø": 8.0,
+            "AST Ø": 2.7,
+            "Trend": "🔼"
+        },
+        {
+            "Name": "Jrue Holiday",
+            "PTS Ø": 18.3,
+            "REB Ø": 5.0,
+            "AST Ø": 5.3,
+            "Trend": "➖"
+        }
+    ],
+    "trends_away": [
+        {
+            "Name": "Devin Booker",
+            "PTS Ø": 25.7,
+            "REB Ø": 2.0,
+            "AST Ø": 6.7,
+            "Trend": "🔼"
+        },
+        {
+            "Name": "Kevin Durant",
+            "PTS Ø": 21.3,
+            "REB Ø": 4.7,
+            "AST Ø": 1.7,
+            "Trend": "🔽"
+        },
+        {
+            "Name": "Bradley Beal",
+            "PTS Ø": 14.7,
+            "REB Ø": 1.7,
+            "AST Ø": 1.7,
+            "Trend": "🔽"
+        },
+        {
+            "Name": "Collin Gillespie",
+            "PTS Ø": 14.3,
+            "REB Ø": 3.7,
+            "AST Ø": 6.0,
+            "Trend": "➖"
+        },
+        {
+            "Name": "Grayson Allen",
+            "PTS Ø": 11.0,
+            "REB Ø": 2.0,
+            "AST Ø": 1.7,
+            "Trend": "🔼"
+        }
+    ]
+}

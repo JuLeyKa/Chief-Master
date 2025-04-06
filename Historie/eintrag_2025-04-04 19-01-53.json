@@ -1,0 +1,337 @@
+{
+    "home_team": "Los Angeles Clippers",
+    "away_team": "Dallas Mavericks",
+    "prob": 0.6741655390611747,
+    "features": {
+        "ELO_HOME": 1573.2322669568598,
+        "ELO_AWAY": 1464.862809976146,
+        "MOMENTUM_HOME_CLEAN": 3.0,
+        "MOMENTUM_AWAY_CLEAN": 1.0,
+        "AVG_HOME_PTS_3": 110.66666666666667,
+        "AVG_AWAY_PTS_3": 116.33333333333333,
+        "AVG_HOME_PTS_7": 117.0,
+        "AVG_AWAY_PTS_7": 115.14285714285714,
+        "AVG_HOME_FG_PCT_3": 0.48300000000000004,
+        "AVG_AWAY_FG_PCT_3": 0.49066666666666675,
+        "AVG_HOME_FG_PCT_7": 0.502,
+        "AVG_AWAY_FG_PCT_7": 0.5102857142857142,
+        "AVG_HOME_REB_3": 40.333333333333336,
+        "AVG_AWAY_REB_3": 44.0,
+        "AVG_HOME_REB_7": 43.57142857142857,
+        "AVG_AWAY_REB_7": 41.42857142857143,
+        "AVG_HOME_AST_3": 23.333333333333332,
+        "AVG_AWAY_AST_3": 28.0,
+        "AVG_HOME_AST_7": 25.0,
+        "AVG_AWAY_AST_7": 26.142857142857142,
+        "AVG_HOME_STL_3": 9.0,
+        "AVG_AWAY_STL_3": 6.666666666666667,
+        "AVG_HOME_STL_7": 7.857142857142857,
+        "AVG_AWAY_STL_7": 8.428571428571429,
+        "AVG_HOME_BLK_3": 4.333333333333333,
+        "AVG_AWAY_BLK_3": 6.333333333333333,
+        "AVG_HOME_BLK_7": 6.0,
+        "AVG_AWAY_BLK_7": 4.428571428571429
+    },
+    "last_5_home": [
+        {
+            "GAME_DATE": "2025-04-02",
+            "Heim/Auswärts": "Heim",
+            "Gegner": "NOP",
+            "WL": "W",
+            "PTS": 114,
+            "PLUS_MINUS": 16.0
+        },
+        {
+            "GAME_DATE": "2025-03-31",
+            "Heim/Auswärts": "Auswärts",
+            "Gegner": "ORL",
+            "WL": "W",
+            "PTS": 96,
+            "PLUS_MINUS": 9.0
+        },
+        {
+            "GAME_DATE": "2025-03-30",
+            "Heim/Auswärts": "Auswärts",
+            "Gegner": "CLE",
+            "WL": "L",
+            "PTS": 122,
+            "PLUS_MINUS": -5.0
+        },
+        {
+            "GAME_DATE": "2025-03-28",
+            "Heim/Auswärts": "Auswärts",
+            "Gegner": "BKN",
+            "WL": "W",
+            "PTS": 132,
+            "PLUS_MINUS": 32.0
+        },
+        {
+            "GAME_DATE": "2025-03-26",
+            "Heim/Auswärts": "Auswärts",
+            "Gegner": "NYK",
+            "WL": "W",
+            "PTS": 126,
+            "PLUS_MINUS": 13.0
+        }
+    ],
+    "last_5_away": [
+        {
+            "GAME_DATE": "2025-04-02",
+            "Heim/Auswärts": "Heim",
+            "Gegner": "ATL",
+            "WL": "W",
+            "PTS": 120,
+            "PLUS_MINUS": 2.0
+        },
+        {
+            "GAME_DATE": "2025-03-31",
+            "Heim/Auswärts": "Heim",
+            "Gegner": "BKN",
+            "WL": "L",
+            "PTS": 109,
+            "PLUS_MINUS": -4.0
+        },
+        {
+            "GAME_DATE": "2025-03-29",
+            "Heim/Auswärts": "Auswärts",
+            "Gegner": "CHI",
+            "WL": "W",
+            "PTS": 120,
+            "PLUS_MINUS": 1.0
+        },
+        {
+            "GAME_DATE": "2025-03-27",
+            "Heim/Auswärts": "Auswärts",
+            "Gegner": "ORL",
+            "WL": "W",
+            "PTS": 101,
+            "PLUS_MINUS": 9.0
+        },
+        {
+            "GAME_DATE": "2025-03-25",
+            "Heim/Auswärts": "Auswärts",
+            "Gegner": "NYK",
+            "WL": "L",
+            "PTS": 113,
+            "PLUS_MINUS": -15.0
+        }
+    ],
+    "top_scorer_home": [
+        {
+            "Name": "Kawhi Leonard",
+            "Matchup": "LAC vs. NOP",
+            "MIN": 38.0,
+            "PTS": 28,
+            "REB": 3,
+            "AST": 3
+        },
+        {
+            "Name": "James Harden",
+            "Matchup": "LAC vs. NOP",
+            "MIN": 34.0,
+            "PTS": 21,
+            "REB": 0,
+            "AST": 10
+        },
+        {
+            "Name": "Ivica Zubac",
+            "Matchup": "LAC vs. NOP",
+            "MIN": 33.0,
+            "PTS": 17,
+            "REB": 10,
+            "AST": 6
+        },
+        {
+            "Name": "Bogdan Bogdanović",
+            "Matchup": "LAC vs. NOP",
+            "MIN": 26.0,
+            "PTS": 16,
+            "REB": 1,
+            "AST": 1
+        },
+        {
+            "Name": "Patty Mills",
+            "Matchup": "LAC @ BKN",
+            "MIN": 7.0,
+            "PTS": 14,
+            "REB": 0,
+            "AST": 0
+        }
+    ],
+    "top_scorer_away": [
+        {
+            "Name": "Anthony Davis",
+            "Matchup": "DAL vs. ATL",
+            "MIN": 30.0,
+            "PTS": 34,
+            "REB": 15,
+            "AST": 2
+        },
+        {
+            "Name": "Klay Thompson",
+            "Matchup": "DAL vs. ATL",
+            "MIN": 29.0,
+            "PTS": 17,
+            "REB": 4,
+            "AST": 2
+        },
+        {
+            "Name": "Spencer Dinwiddie",
+            "Matchup": "DAL vs. ATL",
+            "MIN": 33.0,
+            "PTS": 14,
+            "REB": 4,
+            "AST": 10
+        },
+        {
+            "Name": "Jaden Hardy",
+            "Matchup": "DAL vs. ATL",
+            "MIN": 22.0,
+            "PTS": 13,
+            "REB": 1,
+            "AST": 3
+        },
+        {
+            "Name": "P.J. Washington",
+            "Matchup": "DAL vs. BKN",
+            "MIN": 31.0,
+            "PTS": 13,
+            "REB": 5,
+            "AST": 2
+        }
+    ],
+    "low_minutes_home": [
+        {
+            "Name": "Amir Coffey",
+            "Matchup": "LAC @ CLE",
+            "MIN": 4.0,
+            "PTS": 1,
+            "REB": 1,
+            "AST": 0
+        },
+        {
+            "Name": "Trentyn Flowers",
+            "Matchup": "LAC vs. NOP",
+            "MIN": 3.0,
+            "PTS": 2,
+            "REB": 0,
+            "AST": 0
+        },
+        {
+            "Name": "Cam Christie",
+            "Matchup": "LAC vs. NOP",
+            "MIN": 3.0,
+            "PTS": 0,
+            "REB": 0,
+            "AST": 0
+        },
+        {
+            "Name": "Drew Eubanks",
+            "Matchup": "LAC vs. NOP",
+            "MIN": 3.0,
+            "PTS": 2,
+            "REB": 0,
+            "AST": 0
+        },
+        {
+            "Name": "Kobe Brown",
+            "Matchup": "LAC vs. NOP",
+            "MIN": 3.0,
+            "PTS": 0,
+            "REB": 1,
+            "AST": 0
+        },
+        {
+            "Name": "Patrick Baldwin Jr.",
+            "Matchup": "LAC vs. NOP",
+            "MIN": 3.0,
+            "PTS": 0,
+            "REB": 1,
+            "AST": 1
+        }
+    ],
+    "low_minutes_away": [
+        {
+            "Name": "Kai Jones",
+            "Matchup": "DAL vs. ATL",
+            "MIN": 2.0,
+            "PTS": 2,
+            "REB": 1,
+            "AST": 0
+        }
+    ],
+    "trends_home": [
+        {
+            "Name": "Kawhi Leonard",
+            "PTS Ø": 26.7,
+            "REB Ø": 5.7,
+            "AST Ø": 2.3,
+            "Trend": "➖"
+        },
+        {
+            "Name": "Norman Powell",
+            "PTS Ø": 22.0,
+            "REB Ø": 2.0,
+            "AST Ø": 2.0,
+            "Trend": "🔽"
+        },
+        {
+            "Name": "James Harden",
+            "PTS Ø": 21.7,
+            "REB Ø": 3.7,
+            "AST Ø": 7.7,
+            "Trend": "➖"
+        },
+        {
+            "Name": "Ivica Zubac",
+            "PTS Ø": 16.3,
+            "REB Ø": 14.3,
+            "AST Ø": 4.3,
+            "Trend": "➖"
+        },
+        {
+            "Name": "Bogdan Bogdanović",
+            "PTS Ø": 12.3,
+            "REB Ø": 2.3,
+            "AST Ø": 1.3,
+            "Trend": "➖"
+        }
+    ],
+    "trends_away": [
+        {
+            "Name": "Anthony Davis",
+            "PTS Ø": 21.3,
+            "REB Ø": 9.7,
+            "AST Ø": 4.0,
+            "Trend": "➖"
+        },
+        {
+            "Name": "Kyrie Irving",
+            "PTS Ø": 21.0,
+            "REB Ø": 5.0,
+            "AST Ø": 3.0,
+            "Trend": "➖"
+        },
+        {
+            "Name": "Klay Thompson",
+            "PTS Ø": 16.7,
+            "REB Ø": 2.7,
+            "AST Ø": 2.3,
+            "Trend": "➖"
+        },
+        {
+            "Name": "Brandon Williams",
+            "PTS Ø": 16.0,
+            "REB Ø": 1.7,
+            "AST Ø": 4.0,
+            "Trend": "🔽"
+        },
+        {
+            "Name": "P.J. Washington",
+            "PTS Ø": 16.0,
+            "REB Ø": 4.7,
+            "AST Ø": 3.0,
+            "Trend": "➖"
+        }
+    ]
+}

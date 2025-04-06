@@ -1,0 +1,313 @@
+{
+    "home_team": "Chicago Bulls",
+    "away_team": "Boston Celtics",
+    "prob": 0.6663224018062728,
+    "features": {
+        "ELO_HOME": 1497.9595740466752,
+        "ELO_AWAY": 1661.455874680861,
+        "MOMENTUM_HOME_CLEAN": 3.0,
+        "MOMENTUM_AWAY_CLEAN": 3.0,
+        "AVG_HOME_PTS_3": 124.33333333333333,
+        "AVG_AWAY_PTS_3": 113.66666666666667,
+        "AVG_HOME_PTS_7": 127.85714285714286,
+        "AVG_AWAY_PTS_7": 119.42857142857143,
+        "AVG_HOME_FG_PCT_3": 0.4966666666666666,
+        "AVG_AWAY_FG_PCT_3": 0.4443333333333334,
+        "AVG_HOME_FG_PCT_7": 0.5082857142857143,
+        "AVG_AWAY_FG_PCT_7": 0.47200000000000003,
+        "AVG_HOME_REB_3": 49.333333333333336,
+        "AVG_AWAY_REB_3": 50.333333333333336,
+        "AVG_HOME_REB_7": 45.857142857142854,
+        "AVG_AWAY_REB_7": 47.142857142857146,
+        "AVG_HOME_AST_3": 32.0,
+        "AVG_AWAY_AST_3": 28.666666666666668,
+        "AVG_HOME_AST_7": 33.285714285714285,
+        "AVG_AWAY_AST_7": 29.285714285714285,
+        "AVG_HOME_STL_3": 7.0,
+        "AVG_AWAY_STL_3": 3.0,
+        "AVG_HOME_STL_7": 8.428571428571429,
+        "AVG_AWAY_STL_7": 6.428571428571429,
+        "AVG_HOME_BLK_3": 4.0,
+        "AVG_AWAY_BLK_3": 4.333333333333333,
+        "AVG_HOME_BLK_7": 3.7142857142857144,
+        "AVG_AWAY_BLK_7": 4.857142857142857
+    },
+    "last_5_home": [
+        {
+            "GAME_DATE": "2025-04-01",
+            "Heim/Auswärts": "Heim",
+            "Gegner": "TOR",
+            "WL": "W",
+            "PTS": 137,
+            "PLUS_MINUS": 19.0
+        },
+        {
+            "GAME_DATE": "2025-03-31",
+            "Heim/Auswärts": "Auswärts",
+            "Gegner": "OKC",
+            "WL": "L",
+            "PTS": 117,
+            "PLUS_MINUS": -28.0
+        },
+        {
+            "GAME_DATE": "2025-03-29",
+            "Heim/Auswärts": "Heim",
+            "Gegner": "DAL",
+            "WL": "L",
+            "PTS": 119,
+            "PLUS_MINUS": -1.0
+        },
+        {
+            "GAME_DATE": "2025-03-27",
+            "Heim/Auswärts": "Heim",
+            "Gegner": "LAL",
+            "WL": "W",
+            "PTS": 119,
+            "PLUS_MINUS": 2.0
+        },
+        {
+            "GAME_DATE": "2025-03-24",
+            "Heim/Auswärts": "Auswärts",
+            "Gegner": "DEN",
+            "WL": "W",
+            "PTS": 129,
+            "PLUS_MINUS": 10.0
+        }
+    ],
+    "last_5_away": [
+        {
+            "GAME_DATE": "2025-04-02",
+            "Heim/Auswärts": "Heim",
+            "Gegner": "MIA",
+            "WL": "L",
+            "PTS": 103,
+            "PLUS_MINUS": -21.0
+        },
+        {
+            "GAME_DATE": "2025-03-31",
+            "Heim/Auswärts": "Auswärts",
+            "Gegner": "MEM",
+            "WL": "W",
+            "PTS": 117,
+            "PLUS_MINUS": 14.0
+        },
+        {
+            "GAME_DATE": "2025-03-29",
+            "Heim/Auswärts": "Auswärts",
+            "Gegner": "SAS",
+            "WL": "W",
+            "PTS": 121,
+            "PLUS_MINUS": 10.0
+        },
+        {
+            "GAME_DATE": "2025-03-26",
+            "Heim/Auswärts": "Auswärts",
+            "Gegner": "PHX",
+            "WL": "W",
+            "PTS": 132,
+            "PLUS_MINUS": 30.0
+        },
+        {
+            "GAME_DATE": "2025-03-24",
+            "Heim/Auswärts": "Auswärts",
+            "Gegner": "SAC",
+            "WL": "W",
+            "PTS": 113,
+            "PLUS_MINUS": 18.0
+        }
+    ],
+    "top_scorer_home": [
+        {
+            "Name": "Coby White",
+            "Matchup": "CHI vs. TOR",
+            "MIN": 34.0,
+            "PTS": 28,
+            "REB": 3,
+            "AST": 6
+        },
+        {
+            "Name": "Talen Horton-Tucker",
+            "Matchup": "CHI vs. TOR",
+            "MIN": 32.0,
+            "PTS": 27,
+            "REB": 6,
+            "AST": 3
+        },
+        {
+            "Name": "Nikola Vučević",
+            "Matchup": "CHI vs. TOR",
+            "MIN": 25.0,
+            "PTS": 22,
+            "REB": 10,
+            "AST": 7
+        },
+        {
+            "Name": "Josh Giddey",
+            "Matchup": "CHI vs. TOR",
+            "MIN": 28.0,
+            "PTS": 17,
+            "REB": 7,
+            "AST": 12
+        },
+        {
+            "Name": "Jevon Carter",
+            "Matchup": "CHI @ OKC",
+            "MIN": 18.0,
+            "PTS": 17,
+            "REB": 2,
+            "AST": 3
+        }
+    ],
+    "top_scorer_away": [
+        {
+            "Name": "Al Horford",
+            "Matchup": "BOS @ MEM",
+            "MIN": 37.0,
+            "PTS": 26,
+            "REB": 8,
+            "AST": 2
+        },
+        {
+            "Name": "Jaylen Brown",
+            "Matchup": "BOS vs. MIA",
+            "MIN": 29.0,
+            "PTS": 24,
+            "REB": 9,
+            "AST": 4
+        },
+        {
+            "Name": "Kristaps Porziņģis",
+            "Matchup": "BOS @ MEM",
+            "MIN": 34.0,
+            "PTS": 19,
+            "REB": 5,
+            "AST": 5
+        },
+        {
+            "Name": "Jrue Holiday",
+            "Matchup": "BOS @ MEM",
+            "MIN": 31.0,
+            "PTS": 18,
+            "REB": 7,
+            "AST": 7
+        },
+        {
+            "Name": "Jayson Tatum",
+            "Matchup": "BOS vs. MIA",
+            "MIN": 32.0,
+            "PTS": 16,
+            "REB": 3,
+            "AST": 7
+        }
+    ],
+    "low_minutes_home": [
+        {
+            "Name": "Jalen Smith",
+            "Matchup": "CHI vs. TOR",
+            "MIN": 4.0,
+            "PTS": 4,
+            "REB": 2,
+            "AST": 0
+        },
+        {
+            "Name": "Emanuel Miller",
+            "Matchup": "CHI vs. TOR",
+            "MIN": 3.0,
+            "PTS": 0,
+            "REB": 1,
+            "AST": 1
+        },
+        {
+            "Name": "E.J. Liddell",
+            "Matchup": "CHI vs. TOR",
+            "MIN": 3.0,
+            "PTS": 0,
+            "REB": 0,
+            "AST": 0
+        }
+    ],
+    "low_minutes_away": [
+        {
+            "Name": "Miles Norris",
+            "Matchup": "BOS vs. PHI",
+            "MIN": 4.0,
+            "PTS": 0,
+            "REB": 2,
+            "AST": 0
+        }
+    ],
+    "trends_home": [
+        {
+            "Name": "Coby White",
+            "PTS Ø": 20.0,
+            "REB Ø": 4.7,
+            "AST Ø": 3.0,
+            "Trend": "➖"
+        },
+        {
+            "Name": "Nikola Vučević",
+            "PTS Ø": 19.3,
+            "REB Ø": 9.0,
+            "AST Ø": 4.7,
+            "Trend": "➖"
+        },
+        {
+            "Name": "Matas Buzelis",
+            "PTS Ø": 17.0,
+            "REB Ø": 6.3,
+            "AST Ø": 2.3,
+            "Trend": "🔽"
+        },
+        {
+            "Name": "Tre Jones",
+            "PTS Ø": 15.0,
+            "REB Ø": 4.7,
+            "AST Ø": 9.3,
+            "Trend": "➖"
+        },
+        {
+            "Name": "Kevin Huerter",
+            "PTS Ø": 15.0,
+            "REB Ø": 3.7,
+            "AST Ø": 4.0,
+            "Trend": "➖"
+        }
+    ],
+    "trends_away": [
+        {
+            "Name": "Jayson Tatum",
+            "PTS Ø": 23.3,
+            "REB Ø": 9.0,
+            "AST Ø": 5.7,
+            "Trend": "🔽"
+        },
+        {
+            "Name": "Jaylen Brown",
+            "PTS Ø": 20.7,
+            "REB Ø": 4.7,
+            "AST Ø": 4.3,
+            "Trend": "➖"
+        },
+        {
+            "Name": "Kristaps Porziņģis",
+            "PTS Ø": 20.0,
+            "REB Ø": 7.0,
+            "AST Ø": 2.7,
+            "Trend": "➖"
+        },
+        {
+            "Name": "Al Horford",
+            "PTS Ø": 18.7,
+            "REB Ø": 8.0,
+            "AST Ø": 2.7,
+            "Trend": "🔼"
+        },
+        {
+            "Name": "Jrue Holiday",
+            "PTS Ø": 18.3,
+            "REB Ø": 5.0,
+            "AST Ø": 5.3,
+            "Trend": "➖"
+        }
+    ]
+}

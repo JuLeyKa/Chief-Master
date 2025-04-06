@@ -1,0 +1,279 @@
+{
+    "home_team": "Golden State Warriors",
+    "away_team": "Denver Nuggets",
+    "prob": 0.661195244035598,
+    "features": {
+        "ELO_HOME": 1573.4716813571724,
+        "ELO_AWAY": 1544.6107567587076,
+        "MOMENTUM_HOME_CLEAN": 1.0,
+        "MOMENTUM_AWAY_CLEAN": -1.0,
+        "AVG_HOME_PTS_3": 135.0,
+        "AVG_AWAY_PTS_3": 124.66666666666667,
+        "AVG_HOME_PTS_7": 119.14285714285714,
+        "AVG_AWAY_PTS_7": 120.71428571428571,
+        "AVG_HOME_FG_PCT_3": 0.4923333333333333,
+        "AVG_AWAY_FG_PCT_3": 0.507,
+        "AVG_HOME_FG_PCT_7": 0.4534285714285714,
+        "AVG_AWAY_FG_PCT_7": 0.5064285714285715,
+        "AVG_HOME_REB_3": 46.333333333333336,
+        "AVG_AWAY_REB_3": 49.333333333333336,
+        "AVG_HOME_REB_7": 43.285714285714285,
+        "AVG_AWAY_REB_7": 45.714285714285715,
+        "AVG_HOME_AST_3": 33.666666666666664,
+        "AVG_AWAY_AST_3": 31.666666666666668,
+        "AVG_HOME_AST_7": 29.714285714285715,
+        "AVG_AWAY_AST_7": 31.0,
+        "AVG_HOME_STL_3": 11.0,
+        "AVG_AWAY_STL_3": 8.666666666666666,
+        "AVG_HOME_STL_7": 10.285714285714286,
+        "AVG_AWAY_STL_7": 7.428571428571429,
+        "AVG_HOME_BLK_3": 2.6666666666666665,
+        "AVG_AWAY_BLK_3": 8.0,
+        "AVG_HOME_BLK_7": 2.7142857142857144,
+        "AVG_AWAY_BLK_7": 6.142857142857143
+    },
+    "last_5_home": [
+        {
+            "GAME_DATE": "2025-04-03",
+            "Heim/Auswärts": "Auswärts",
+            "Gegner": "LAL",
+            "WL": "W",
+            "PTS": 123,
+            "PLUS_MINUS": 7.0
+        },
+        {
+            "GAME_DATE": "2025-04-01",
+            "Heim/Auswärts": "Auswärts",
+            "Gegner": "MEM",
+            "WL": "W",
+            "PTS": 134,
+            "PLUS_MINUS": 9.0
+        },
+        {
+            "GAME_DATE": "2025-03-30",
+            "Heim/Auswärts": "Auswärts",
+            "Gegner": "SAS",
+            "WL": "W",
+            "PTS": 148,
+            "PLUS_MINUS": 42.0
+        },
+        {
+            "GAME_DATE": "2025-03-28",
+            "Heim/Auswärts": "Auswärts",
+            "Gegner": "NOP",
+            "WL": "W",
+            "PTS": 111,
+            "PLUS_MINUS": 16.0
+        },
+        {
+            "GAME_DATE": "2025-03-25",
+            "Heim/Auswärts": "Auswärts",
+            "Gegner": "MIA",
+            "WL": "L",
+            "PTS": 86,
+            "PLUS_MINUS": -26.0
+        }
+    ],
+    "last_5_away": [
+        {
+            "GAME_DATE": "2025-04-02",
+            "Heim/Auswärts": "Heim",
+            "Gegner": "SAS",
+            "WL": "L",
+            "PTS": 106,
+            "PLUS_MINUS": -7.0
+        },
+        {
+            "GAME_DATE": "2025-04-01",
+            "Heim/Auswärts": "Heim",
+            "Gegner": "MIN",
+            "WL": "L",
+            "PTS": 139,
+            "PLUS_MINUS": -1.0
+        },
+        {
+            "GAME_DATE": "2025-03-28",
+            "Heim/Auswärts": "Heim",
+            "Gegner": "UTA",
+            "WL": "W",
+            "PTS": 129,
+            "PLUS_MINUS": 36.0
+        },
+        {
+            "GAME_DATE": "2025-03-26",
+            "Heim/Auswärts": "Heim",
+            "Gegner": "MIL",
+            "WL": "W",
+            "PTS": 127,
+            "PLUS_MINUS": 10.0
+        },
+        {
+            "GAME_DATE": "2025-03-24",
+            "Heim/Auswärts": "Heim",
+            "Gegner": "CHI",
+            "WL": "L",
+            "PTS": 119,
+            "PLUS_MINUS": -10.0
+        }
+    ],
+    "top_scorer_home": [
+        {
+            "Name": "Stephen Curry",
+            "Matchup": "GSW @ LAL",
+            "MIN": 34.0,
+            "PTS": 37,
+            "REB": 3,
+            "AST": 6
+        },
+        {
+            "Name": "Brandin Podziemski",
+            "Matchup": "GSW @ LAL",
+            "MIN": 36.0,
+            "PTS": 28,
+            "REB": 8,
+            "AST": 6
+        },
+        {
+            "Name": "Jonathan Kuminga",
+            "Matchup": "GSW @ LAL",
+            "MIN": 25.0,
+            "PTS": 18,
+            "REB": 9,
+            "AST": 4
+        },
+        {
+            "Name": "Moses Moody",
+            "Matchup": "GSW @ LAL",
+            "MIN": 29.0,
+            "PTS": 13,
+            "REB": 2,
+            "AST": 3
+        },
+        {
+            "Name": "Jimmy Butler III",
+            "Matchup": "GSW @ LAL",
+            "MIN": 36.0,
+            "PTS": 11,
+            "REB": 4,
+            "AST": 2
+        }
+    ],
+    "top_scorer_away": [
+        {
+            "Name": "Nikola Jokić",
+            "Matchup": "DEN vs. MIN",
+            "MIN": 53.0,
+            "PTS": 61,
+            "REB": 10,
+            "AST": 10
+        },
+        {
+            "Name": "Aaron Gordon",
+            "Matchup": "DEN vs. MIN",
+            "MIN": 47.0,
+            "PTS": 30,
+            "REB": 8,
+            "AST": 5
+        },
+        {
+            "Name": "Russell Westbrook",
+            "Matchup": "DEN vs. SAS",
+            "MIN": 40.0,
+            "PTS": 30,
+            "REB": 11,
+            "AST": 6
+        },
+        {
+            "Name": "Michael Porter Jr.",
+            "Matchup": "DEN vs. UTA",
+            "MIN": 31.0,
+            "PTS": 20,
+            "REB": 4,
+            "AST": 4
+        },
+        {
+            "Name": "Christian Braun",
+            "Matchup": "DEN vs. MIN",
+            "MIN": 53.0,
+            "PTS": 18,
+            "REB": 12,
+            "AST": 4
+        }
+    ],
+    "low_minutes_home": [],
+    "low_minutes_away": [],
+    "trends_home": [
+        {
+            "Name": "Stephen Curry",
+            "PTS Ø": 34.0,
+            "REB Ø": 5.3,
+            "AST Ø": 6.7,
+            "Trend": "➖"
+        },
+        {
+            "Name": "Brandin Podziemski",
+            "PTS Ø": 21.0,
+            "REB Ø": 6.3,
+            "AST Ø": 4.0,
+            "Trend": "➖"
+        },
+        {
+            "Name": "Jimmy Butler III",
+            "PTS Ø": 17.0,
+            "REB Ø": 4.3,
+            "AST Ø": 4.7,
+            "Trend": "➖"
+        },
+        {
+            "Name": "Moses Moody",
+            "PTS Ø": 14.3,
+            "REB Ø": 3.0,
+            "AST Ø": 2.3,
+            "Trend": "➖"
+        },
+        {
+            "Name": "Jonathan Kuminga",
+            "PTS Ø": 12.7,
+            "REB Ø": 6.0,
+            "AST Ø": 2.3,
+            "Trend": "➖"
+        }
+    ],
+    "trends_away": [
+        {
+            "Name": "Nikola Jokić",
+            "PTS Ø": 42.3,
+            "REB Ø": 11.3,
+            "AST Ø": 8.7,
+            "Trend": "➖"
+        },
+        {
+            "Name": "Jamal Murray",
+            "PTS Ø": 28.0,
+            "REB Ø": 4.3,
+            "AST Ø": 6.7,
+            "Trend": "🔽"
+        },
+        {
+            "Name": "Michael Porter Jr.",
+            "PTS Ø": 19.7,
+            "REB Ø": 6.7,
+            "AST Ø": 3.3,
+            "Trend": "➖"
+        },
+        {
+            "Name": "Russell Westbrook",
+            "PTS Ø": 19.7,
+            "REB Ø": 6.3,
+            "AST Ø": 6.7,
+            "Trend": "➖"
+        },
+        {
+            "Name": "Christian Braun",
+            "PTS Ø": 17.7,
+            "REB Ø": 8.7,
+            "AST Ø": 4.0,
+            "Trend": "➖"
+        }
+    ]
+}
