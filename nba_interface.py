@@ -1,5 +1,5 @@
-import os
-os.environ["STREAMLIT_SERVER_PORT"] = "8502"
+import os 
+os.environ["STREAMLIT_SERVER_PORT"] = "8502"  # Setze den Server-Port auf 8502
 
 import streamlit as st
 import pandas as pd
@@ -18,39 +18,21 @@ from nba_api.stats.endpoints import leaguegamefinder, commonteamroster, playerga
 st.set_page_config(layout="wide", page_title="NBA Cheef", initial_sidebar_state="expanded")
 
 # -----------------------------------
-# Header-Bild (mittig, 2 Varianten)
+# Header-Bild (über GitHub, zentriert, Breite 200px)
 # -----------------------------------
-banner_path = r"C:\Users\zabun\Desktop\moneyline9x\Master chief.jpg"
-
-if os.path.exists(banner_path):
-    # Variante A: per Spalten-Layout
-    col_left, col_mid, col_right = st.columns([1,2,1])
-    with col_mid:
-        st.image(banner_path, width=250)
-        st.markdown("<h2 style='text-align: center;'>NBA Chief – by Master Halil</h2>", unsafe_allow_html=True)
-
-    # Variante B (auskommentiert): per HTML
-    # banner_path_forward = banner_path.replace("\\", "/")
-    # st.markdown(
-    #     f"""
-    #     <p style='text-align: center;'>
-    #         <img src='file:///{banner_path_forward}' width='250'/>
-    #     </p>
-    #     <h2 style='text-align: center;'>NBA Chief – by Master Halil</h2>
-    #     """,
-    #     unsafe_allow_html=True
-    # )
-
-else:
-    st.warning("Bild konnte nicht geladen werden. Bitte Pfad prüfen.")
+st.image("https://raw.githubusercontent.com/JuLeyKa/Chief-Master/master/Master%20chief.jpg", width=200)
+st.markdown("<h2 style='text-align: center;'>NBA Chief – by Master Halil</h2>", unsafe_allow_html=True)
 
 # -----------------------------------
 # Teams und IDs
 # -----------------------------------
 team_list = teams.get_teams()
+# Mannschaftsnamen alphabetisch sortieren
 sorted_team_names = sorted([team["full_name"] for team in team_list])
+# "Bitte wählen" als erste Option hinzufügen
 sorted_team_names = ["Bitte wählen"] + sorted_team_names
 
+# Mapping erstellen (nur für tatsächliche Teams)
 team_id_map = {}
 for team in team_list:
     team_id_map[team["full_name"]] = team["id"]
@@ -63,7 +45,7 @@ history_csv = os.path.join(history_dir, "historie.csv")
 os.makedirs(history_dir, exist_ok=True)
 
 # -----------------------------------
-# Hilfsfunktion, um DataFrames datums- und json-kompatibel zu machen
+# Hilfsfunktion: DataFrame in json-kompatibles Dictionary umwandeln
 # -----------------------------------
 def df_to_json_compatible(df: pd.DataFrame):
     for col in df.columns:
@@ -71,7 +53,9 @@ def df_to_json_compatible(df: pd.DataFrame):
             df[col] = df[col].astype(str)
     return df.to_dict(orient="records")
 
-# Tabellen-Helfer
+# -----------------------------------
+# Tabellen-Helfer: Falls mehr als 5 Zeilen, in Expander anzeigen
+# -----------------------------------
 def show_table(title: str, df: pd.DataFrame):
     if len(df) > 5:
         with st.expander(title):
@@ -81,7 +65,7 @@ def show_table(title: str, df: pd.DataFrame):
         st.dataframe(df)
 
 # -----------------------------------
-# API-Funktionen
+# Funktionen zum Abrufen der Spiele (nur Saison "2024-25")
 # -----------------------------------
 def get_last_n_games(team_id, num_games=10):
     from nba_api.stats.endpoints import leaguegamefinder
@@ -102,6 +86,9 @@ def compute_rolling_features(games_df, stat, n):
         return np.nan
     return games_df.head(n)[stat].mean()
 
+# -----------------------------------
+# Iterative ELO-Berechnung (Gegner wird als konstant 1500 angenommen)
+# -----------------------------------
 def calculate_team_elo(team_id, K=10):
     games = get_all_season_games(team_id)
     elo = 1500
@@ -111,6 +98,9 @@ def calculate_team_elo(team_id, K=10):
         elo = elo + K * (result - expected)
     return elo
 
+# -----------------------------------
+# build_model_input-Funktion
+# -----------------------------------
 def build_model_input(home_team_id, away_team_id, elo_df, manual_values=None):
     home_games = get_last_n_games(home_team_id)
     away_games = get_last_n_games(away_team_id)
@@ -236,7 +226,7 @@ def get_boxscore_for_game(game_id):
     df = boxscore.get_data_frames()[0]
     if "PLAYER_NAME" in df.columns:
         df.rename(columns={"PLAYER_NAME": "PLAYER"}, inplace=True)
-    df = df[df["PLAYER"] != "TEAM"]  # Zeile mit 240 Min. filtern
+    df = df[df["PLAYER"] != "TEAM"]
     def played(min_val):
         if isinstance(min_val, str):
             return min_val not in ["0:00", "0", ""]
@@ -437,7 +427,7 @@ if not os.path.exists(history_csv) or selected_history == "(neu)":
 home_team = st.selectbox("Home Team", sorted_team_names, index=sorted_team_names.index(home_team), key="home_team_select")
 away_team = st.selectbox("Away Team", sorted_team_names, index=sorted_team_names.index(away_team), key="away_team_select")
 
-# Falls "Bitte wählen" => Abbruch
+# Falls "Bitte wählen" ausgewählt => Abbruch
 if home_team == "Bitte wählen" or away_team == "Bitte wählen":
     st.warning("Bitte wähle zuerst beide Teams aus, um fortzufahren.")
     st.stop()
