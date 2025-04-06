@@ -1,4 +1,4 @@
-import os 
+import os
 os.environ["STREAMLIT_SERVER_PORT"] = "8502"  # Setze den Server-Port auf 8502
 
 import streamlit as st
@@ -8,14 +8,71 @@ import numpy as np
 import time
 import json
 from datetime import datetime
-
+import datetime as dt
 import plotly.graph_objects as go
 import plotly.express as px
 
+# Live Scoreboard importieren
+from nba_api.live.nba.endpoints import scoreboard
 from nba_api.stats.static import teams
 from nba_api.stats.endpoints import leaguegamefinder, commonteamroster, playergamelog, leaguestandings
 
 st.set_page_config(layout="wide", page_title="NBA Cheef", initial_sidebar_state="expanded")
+
+# ------------------------------------------------------------------
+# Kompaktes Live Scoreboard in Dropdown inkl. Spieler-Stats
+# ------------------------------------------------------------------
+with st.expander("Live Scoreboard", expanded=True):
+    try:
+        sb = scoreboard.ScoreBoard()
+        score_data = sb.get_dict()
+        games = score_data['scoreboard'].get('games', [])
+        if games:
+            for game in games:
+                # Teams und Score extrahieren
+                home_team = game['homeTeam']['teamName']
+                away_team = game['awayTeam']['teamName']
+                home_score = game['homeTeam']['score']
+                away_score = game['awayTeam']['score']
+                status = game['gameStatusText']
+                
+                # Kompakte Darstellung mit zwei Spalten (st.metric)
+                col1, col2 = st.columns(2)
+                with col1:
+                    st.metric(label=home_team, value=home_score)
+                with col2:
+                    st.metric(label=away_team, value=away_score)
+                st.caption(status)
+                
+                # Nested Dropdown für Spieler-Stats (Live-Boxscore)
+                try:
+                    from nba_api.live.nba.endpoints import boxscore
+                    # Annahme: Im Spiel-Dictionary befindet sich ein gameId bzw. game_id
+                    game_id = game.get("gameId") or game.get("game_id")
+                    if game_id:
+                        bs = boxscore.BoxScore(game_id)
+                        data = bs.get_dict()
+                        players = data.get('game', {}).get('players', [])
+                        if players:
+                            with st.expander("Spieler Stats"):
+                                player_stats = []
+                                for p in players:
+                                    stats = p.get("statistics", {})
+                                    player_stats.append({
+                                        "Name": p.get("name", "N/A"),
+                                        "PTS": stats.get("points", "N/A"),
+                                        "REB": stats.get("rebounds", "N/A"),
+                                        "AST": stats.get("assists", "N/A")
+                                    })
+                                if player_stats:
+                                    st.table(pd.DataFrame(player_stats))
+                except Exception as e:
+                    st.error(f"Fehler beim Laden der Spieler Stats: {e}")
+                st.markdown("---")
+        else:
+            st.info("Keine Live-Spiele gefunden.")
+    except Exception as e:
+        st.error(f"Fehler beim Laden des Live Scoreboards: {e}")
 
 # -----------------------------------
 # Header-Bild (über GitHub, zentriert, Breite 200px)
@@ -31,7 +88,6 @@ team_list = teams.get_teams()
 sorted_team_names = sorted([team["full_name"] for team in team_list])
 # "Bitte wählen" als erste Option hinzufügen
 sorted_team_names = ["Bitte wählen"] + sorted_team_names
-
 # Mapping erstellen (nur für tatsächliche Teams)
 team_id_map = {}
 for team in team_list:
@@ -87,7 +143,7 @@ def compute_rolling_features(games_df, stat, n):
     return games_df.head(n)[stat].mean()
 
 # -----------------------------------
-# Iterative ELO-Berechnung (Gegner wird als konstant 1500 angenommen)
+# Iterative ELO-Berechnung (Gegner = 1500)
 # -----------------------------------
 def calculate_team_elo(team_id, K=10):
     games = get_all_season_games(team_id)
@@ -355,7 +411,7 @@ if selected_history != "(neu)":
     if os.path.exists(json_path):
         with open(json_path, "r", encoding="utf-8") as f:
             loaded_data = json.load(f)
-
+        
         st.subheader(f"Geladene Begegnung: {loaded_data['home_team']} vs {loaded_data['away_team']}")
         st.success(f"Gespeicherte Siegwahrscheinlichkeit: {loaded_data['prob']:.2%}")
 
@@ -473,7 +529,6 @@ manual_inputs = {
 with st.expander(f"Alle Spiele der Saison – {home_team}"):
     all_games_home = get_all_season_games(team_id_map[home_team])
     st.dataframe(all_games_home)
-
 with st.expander(f"Alle Spiele der Saison – {away_team}"):
     all_games_away = get_all_season_games(team_id_map[away_team])
     st.dataframe(all_games_away)
@@ -622,7 +677,7 @@ if st.button("Spieler Stats anzeigen", key="btn_stats"):
         away_team_session = st.session_state["away_team"]
         st.markdown("## Spieler-Stats: Letzte 5 Spiele pro Team")
         col_home, col_away = st.columns(2)
-
+        
         with col_home:
             st.subheader(f"{home_team_session}: Letzte 5 Spiele (alle Spieler)")
             home_games_stats = get_last_games_for_stats(team_id_map[home_team_session], num_games=5)
